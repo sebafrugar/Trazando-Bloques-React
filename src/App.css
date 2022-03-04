@@ -1,20 +1,50 @@
 .App {
   text-align: center;
-  background: grey;
+  background-color: grey;
   min-height: 100vh;
   padding-top: 1px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header{
+  background-color: #6aa84f;
+  height: 130px;
+  width: 98%;
+  margin: 15px;
+  border: 1px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navigation{
+  background-color: #6fa8dc;
+  float: left;
+  display: inline-block;
+  height: 500px;
+  width: 20%;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid black;
 }
+.Main{
+  background-color: #e06666;
+  display: inline-block;
+  height: 600px;
+  width: 73%;
+  border: 1px solid black;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.Subcontents{
+  background-color: #ffd966;
+  display: inline-block;
+  height: 400px;
+  width: 25%;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 7px;
+}
+.Advertisement{
+  background-color: #b4a7d6;
+  height: 100px;
+  padding: 7px;
+  margin: 10px;
+  border: 1px solid black;
 
-
+}
 
